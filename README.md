@@ -25,24 +25,35 @@ the Firestore console, not an opaque blob). Older docs may still have it as
 a JSON string from before that change — `useWebsiteConfig` in
 [`src/lib/content.js`](src/lib/content.js) tolerates both, so nothing here
 needs to change again once every site has been re-saved at least once in
-the editor. Current shape, rendered by
-[`src/pages/SitePage.jsx`](src/pages/SitePage.jsx):
+the editor.
+
+This deployment is a pet clinic landing page (ported from the `pet-2`
+template). [`src/data/normalizeConfig.js`](src/data/normalizeConfig.js) fills
+in any field missing from `config` with a safe empty default before handing
+it to the components, so a partially-filled Firestore doc never crashes the
+page. See [`src/data/sample-config.json`](src/data/sample-config.json) for a
+full example of every field the components read — copy its shape into a
+`websites/{id}` doc's `config` map to populate a new site. Top-level shape,
+rendered by [`src/pages/SitePage.jsx`](src/pages/SitePage.jsx):
 
 ```json
 {
-  "name": "Spa Rose",
-  "phone": "0909123456",
-  "theme": { "primary": "#FF6B81", "secondary": "#FFFFFF" },
-  "hero": {
-    "title": "Spa chăm sóc da",
-    "subtitle": "Đẹp tự nhiên",
-    "button": { "text": "Đặt lịch", "link": "/contact" }
-  }
+  "themePrimary": "#0284c7",
+  "themeAccent": "#0891b2",
+  "brand": "PetCare Clinic",
+  "phoneHanoi": "1900 0000",
+  "hero": { "eyebrow": "...", "title": "...", "desc": "...", "image": "", "cta": "..." },
+  "services": { "eyebrow": "...", "title": "...", "items": [{ "title": "...", "desc": "...", "image": "" }] },
+  "branches": { "eyebrow": "...", "title": "...", "items": [{ "name": "...", "city": "...", "address": "...", "phone": "...", "hours": "..." }] },
+  "visible": { "hero": true, "services": true, "branches": true }
 }
 ```
 
-`theme.primary`/`theme.secondary` are applied as CSS custom properties
-(`--theme-primary`/`--theme-secondary`) on the page root.
+`themePrimary`/`themeAccent` are expanded into a full shade scale
+(`--c-50`..`--c-700`) via [`src/hooks/useThemeVars.js`](src/hooks/useThemeVars.js)
+and applied as CSS custom properties on the page root — components reference
+them as `var(--c-600)` etc. `visible.<section>` toggles a section off when
+explicitly `false`; every section defaults to shown.
 
 ## Running a client site
 

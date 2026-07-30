@@ -1,0 +1,210 @@
+{
+  "brand": {
+    "themePrimary": "#0284c7",
+    "themeAccent": "#0891b2",
+    "logo": "🐾",
+    "brand": "PetCare Clinic",
+    "pageTitle": "PetCare Clinic - Phòng khám thú y",
+    "phoneHanoi": "1900 0000",
+    "phoneHcm": "1900 0001",
+    "emergencyLabel": "Cấp cứu 24/7",
+    "bookingCta": "Đặt lịch khám",
+    "hours": "07:00 - 22:00 hằng ngày",
+    "email": "contact@example.com",
+    "zalo": "https://zalo.me/0900000000",
+    "mapUrl": "https://maps.google.com",
+    "facebook": "https://facebook.com",
+    "youtube": "https://youtube.com"
+  },
+
+  "hero": {
+    "eyebrow": "Hệ thống phòng khám thú y",
+    "title": "Chăm sóc sức khỏe thú cưng tận tâm & chuyên nghiệp",
+    "desc": "Đội ngũ bác sĩ giàu kinh nghiệm, trang thiết bị hiện đại, đồng hành cùng bạn trong hành trình chăm sóc người bạn bốn chân.",
+    "image": "",
+    "cta": "Đặt lịch ngay"
+  },
+  "mission": {
+    "eyebrow": "Sứ mệnh",
+    "title": "Đồng hành cùng sức khỏe thú cưng của bạn",
+    "desc": "Chúng tôi hướng đến việc mang lại dịch vụ chăm sóc thú y đáng tin cậy, đặt sức khỏe và sự an toàn của thú cưng làm trọng tâm trong mọi hoạt động.",
+    "image": "",
+    "button": "Tìm hiểu thêm"
+  },
+  "features": {
+    "eyebrow": "",
+    "items": [
+      {
+        "icon": "👩‍⚕️",
+        "title": "Bác sĩ giàu kinh nghiệm",
+        "desc": "Đội ngũ được đào tạo bài bản, nhiều năm kinh nghiệm điều trị."
+      },
+      {
+        "icon": "🔬",
+        "title": "Trang thiết bị hiện đại",
+        "desc": "Hệ thống máy móc chẩn đoán hình ảnh, xét nghiệm tiêu chuẩn."
+      },
+      {
+        "icon": "💊",
+        "title": "Phác đồ điều trị rõ ràng",
+        "desc": "Minh bạch chi phí và tiến trình điều trị cho từng bệnh nhân."
+      },
+      {
+        "icon": "🏥",
+        "title": "Cơ sở vật chất sạch sẽ",
+        "desc": "Không gian khám chữa bệnh an toàn, thoáng đãng."
+      }
+    ]
+  },
+  "specialties": {
+    "eyebrow": "Chuyên khoa",
+    "title": "Các chuyên khoa điều trị",
+    "items": [
+      { "icon": "🪡", "title": "Châm cứu" },
+      { "icon": "🚑", "title": "Cấp cứu" },
+      { "icon": "🐾", "title": "Lão khoa thú cưng" },
+      { "icon": "🩸", "title": "Huyết học" },
+      { "icon": "🧴", "title": "Da liễu" }
+    ]
+  },
+  "services": {
+    "eyebrow": "Dịch vụ",
+    "title": "Dịch vụ nổi bật",
+    "items": [
+      {
+        "title": "Cấp cứu 24/7",
+        "desc": "Tiếp nhận và xử trí các trường hợp khẩn cấp mọi lúc.",
+        "image": ""
+      },
+      {
+        "title": "Chẩn đoán hình ảnh",
+        "desc": "Siêu âm, X-quang hỗ trợ chẩn đoán chính xác.",
+        "image": ""
+      },
+      {
+        "title": "Tán sỏi bằng laser",
+        "desc": "Kỹ thuật hiện đại, ít xâm lấn cho thú cưng.",
+        "image": ""
+      },
+      {
+        "title": "Triệt sản",
+        "desc": "Phẫu thuật triệt sản an toàn, phục hồi nhanh.",
+        "image": ""
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Đội ngũ",
+    "title": "Đội ngũ bác sĩ",
+    "items": [
+      {
+        "name": "BS. Nguyễn Văn A",
+        "role": "Giám đốc chuyên môn",
+        "avatar": ""
+      },
+      { "name": "BS. Trần Thị B", "role": "Chuyên khoa ngoại", "avatar": "" },
+      { "name": "BS. Lê Văn C", "role": "Chuyên khoa nội", "avatar": "" },
+      { "name": "BS. Phạm Thị D", "role": "Chuyên khoa da liễu", "avatar": "" }
+    ]
+  },
+  "community": {
+    "eyebrow": "Hoạt động cộng đồng",
+    "title": "Lan tỏa yêu thương tới thú cưng",
+    "items": [
+      { "title": "Chương trình tiêm phòng cộng đồng", "image": "" },
+      { "title": "Ngày hội nhận nuôi thú cưng", "image": "" },
+      { "title": "Hội thảo chăm sóc thú cưng", "image": "" }
+    ]
+  },
+  "caseStudies": {
+    "eyebrow": "Câu chuyện điều trị",
+    "title": "Một số ca điều trị tiêu biểu",
+    "items": [
+      {
+        "title": "Phục hồi vận động sau chấn thương",
+        "tag": "Ngoại khoa",
+        "image": ""
+      },
+      {
+        "title": "Điều trị bệnh lý về da lâu năm",
+        "tag": "Da liễu",
+        "image": ""
+      },
+      { "title": "Can thiệp cấp cứu kịp thời", "tag": "Cấp cứu", "image": "" },
+      {
+        "title": "Kiểm soát bệnh nền ở thú cưng lớn tuổi",
+        "tag": "Nội khoa",
+        "image": ""
+      }
+    ]
+  },
+  "branches": {
+    "eyebrow": "Hệ thống cơ sở",
+    "title": "Các cơ sở gần bạn",
+    "items": [
+      {
+        "name": "Cơ sở Cầu Giấy",
+        "city": "Hà Nội",
+        "address": "12 Đường Ví Dụ, Cầu Giấy",
+        "phone": "1900 0000",
+        "hours": "07:00 - 22:00"
+      },
+      {
+        "name": "Cơ sở Đống Đa",
+        "city": "Hà Nội",
+        "address": "45 Đường Ví Dụ, Đống Đa",
+        "phone": "1900 0000",
+        "hours": "07:00 - 22:00"
+      },
+      {
+        "name": "Cơ sở Quận 1",
+        "city": "TP.HCM",
+        "address": "78 Đường Ví Dụ, Quận 1",
+        "phone": "1900 0001",
+        "hours": "07:00 - 22:00"
+      }
+    ]
+  },
+  "partners": {
+    "eyebrow": "Đối tác đồng hành",
+    "items": [
+      { "name": "Partner 1", "logo": "" },
+      { "name": "Partner 2", "logo": "" },
+      { "name": "Partner 3", "logo": "" },
+      { "name": "Partner 4", "logo": "" }
+    ]
+  },
+  "news": {
+    "eyebrow": "Tin tức",
+    "title": "Bài viết mới nhất",
+    "items": [
+      { "title": "Lịch tiêm phòng cần thiết cho thú cưng", "image": "" },
+      { "title": "Dấu hiệu nhận biết thú cưng cần khám sớm", "image": "" },
+      { "title": "Chăm sóc thú cưng lớn tuổi đúng cách", "image": "" }
+    ]
+  },
+  "video": {
+    "eyebrow": "Video giới thiệu",
+    "title": "Công nghệ điều trị hiện đại",
+    "desc": "Tìm hiểu quy trình và trang thiết bị được sử dụng trong quá trình thăm khám, điều trị tại hệ thống phòng khám."
+  },
+  "footer": {
+    "desc": "Hệ thống phòng khám thú y đồng hành cùng sức khỏe của thú cưng bạn.",
+    "copyright": "Đây là trang demo cho mục đích học tập."
+  },
+  "visible": {
+    "hero": true,
+    "features": true,
+    "mission": true,
+    "specialties": true,
+    "services": true,
+    "team": true,
+    "community": true,
+    "caseStudies": true,
+    "branches": true,
+    "partners": true,
+    "news": true,
+    "video": true,
+    "footer": true
+  }
+}
